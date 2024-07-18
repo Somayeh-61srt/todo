@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo app</title>
+    <link rel="icon" href="todo-2-64.png">
+</head>
+
+<body>
+    <div class="container">
+        <h2>TODO LIST</h2>
+        <!--Table for todo starts-->
+        <div class="todo">
+            <div class="status">
+                <ul class="work-container">
+                    <li class="title">No status</li>
+                    <li class="add">+ Add Todo</li>
+                </ul>
+            </div>
+            <div class="start">
+                <ul>
+                    <li class="title">Not started</li>
+                </ul>
+            </div>
+            <div class="progress">
+                <ul>
+                    <li class="title">In progress</li>
+                </ul>
+            </div>
+            <div class="complete">
+                <ul>
+                    <li class="title">Compeleted</li>
+                </ul>
+            </div>
+        </div>
+        <!--Table for todo ends-->
+        <!--Modal for adding todo starts-->
+        <div class="modal">
+            <div class="title-modal">
+                <span>Add Todo</span>
+                <span class="remove-modal">x</span>
+            </div>
+            <div class="input-container">
+                <input type="text">
+            </div>
+            <div>
+                <button class="btn">Click to add</button>
+            </div>
+        </div>
+         <!--Modal for adding todo ends-->
+          <!--Modal for warning message starts-->
+        <div class="warning-modal">
+            <p>Type your todo then add</p>
+        </div>
+        <!--Modal for warning message ends-->
+    </div>
+    <script src="exersice.js"></script>
+</body>
+
+</html>
