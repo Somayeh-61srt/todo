@@ -45,6 +45,7 @@ addBtnModal.addEventListener('click', function () {
             newLiTodo.remove()
         })
     }
+    inputElem.focus()
 })
 
 //remove modal//
